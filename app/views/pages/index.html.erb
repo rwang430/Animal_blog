@@ -2,10 +2,9 @@
   <p>This blog will be about my love for animals and show links to information about fostering. I'll have pictures of the previous foster animals that I had in my care and the duration of the time they were with me. There will be links to articles about the changing laws in regards to fostering pets. </p>
 
 <% @pages.each do |page| %>
-  <div>
-    <h1><%= page.name %></h1><br />
+  <div class="booyah-box col-10 offset-1">
+    <h1><%= page.name %></h1>
+    
     <p><%= page.description %></p><br />
   </div>
-
-  <hr />
 <% end %>
